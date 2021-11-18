@@ -1,21 +1,59 @@
+import '../login/logo.png'
 import '../login/Login.css'
 
 function Login(){
 
     return (
         <div class="column is-three-fifths is-offset-one-fifth ">
-            <div class="box">
-                <h5 class="subtitle is-5">Email</h5>
-                <input class="input is-normal is-primary" type="text" placeholder="Email"/>
-                <br/>
-                <h5 class="subtitle is-5">Senha</h5>
-                <input class="input is-normal is-primary" type="text" placeholder="Senha"/>
-                
-                <button class="button is-warning is-hovered">Entrar</button>
+            <form class="box">
 
-                <h6 class="subtitle is-6">Não tem conta? Crie sua conta</h6>
-                <h6 class="subtitle is-6">Esqueci minha senha</h6>
-            </div>
+            
+                <img src="../login/logo" alt='logo'/>
+
+                <div class="field">
+                    <label class="label">Nome</label>
+                    <div class="control">
+                    <input class="input" type="text" placeholder="Nome"/>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label class="label">Email</label>
+                    <div class="control">
+                    <input class="input" type="email" placeholder="e.g. alex@example.com"/>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label class="label">Data de Nascimento</label>
+                    <div class="control">
+                    <input class="input" type="date" placeholder="01/01/1990"/>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label class="label">CPF</label>
+                    <div class="control">
+                    <input class="input" type="texte" placeholder="CPF"/>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label class="label">Password</label>
+                    <div class="control">
+                    <input class="input" type="password" placeholder="********"/>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label class="label">Confirmar senha</label>
+                    <div class="control">
+                    <input class="input" type="password" placeholder="********"/>
+                    </div>
+                </div>
+
+                <button class="button is-primary">Cadastrar</button>
+                </form>
         </div>
         );
 
