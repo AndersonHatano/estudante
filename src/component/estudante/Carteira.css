@@ -1,0 +1,17 @@
+.button{
+
+    background-color: rgb(227, 6, 19);
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    align-items: center;
+    text-transform: uppercase;
+    border: none;
+    width: 100%;
+    max-width: 500px;
+    cursor: pointer;
+    padding: 6px 40px;
+    border-radius: 35px;
+    margin: 10px auto !important;
+    font-family: inherit;
+    justify-content: center;
+}
