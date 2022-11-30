@@ -9,24 +9,35 @@ class CarteiraLuquinha extends Component {
 
         return (
 
-            <div class="column is-three-fifths is-offset-one-fifth ">
+            
+            <div class="column is-half is-offset-one-quarter">
 
-                <div>
-                    <img src={LogoClubeDoEstudante} alt='logo'/>
+                <div class="column is-half is-offset-one-quarter">
+                    <div  class="block">
+                        <img src={LogoClubeDoEstudante} alt='logo'/>
+                    </div>
                 </div>
-                
-                <div>
-                    <button class="button is-danger is-rounded">MENU PRINCIPAL</button>
+
+                <div class="column is-half is-offset-one-quarter">
+
+                    <div class="block">
+                        <button class="button is-danger is-rounded">MENU PRINCIPAL</button>
+                    </div>
+                    
+                    <div class="block">
+                        <button class="button is-danger is-rounded">VER PRÉVIA DA CIE</button>
+                    </div>
+
                 </div>
-                
-                <div>
+
+                <div class="block">
                     <img src={CarteiraLucas} alt='carteirinha lucas'/>
                 </div>
-                <div>
+
+                <div class="column is-half is-offset-one-quarter">
                     <h2>QRCode de validação:</h2>
                 </div>
                 
-
             </div>
 
         );
