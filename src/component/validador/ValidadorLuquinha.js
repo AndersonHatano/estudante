@@ -15,6 +15,11 @@ class ValidadorLuquinha extends Component{
                 <div class="columns is-mobile">
                     <div class="column is-three-fifths is-offset-one-fifth">
                         <img src={Logo} alt='logo' id="logo"/>
+                    </div>
+                </div>
+
+                <div class="columns is-mobile">
+                    <div class="column is-two-third is-offset-one-third">
                         <i class="fa-sharp fa-solid fa-circle-check fa-3x"></i>
                     </div>
                 </div>
