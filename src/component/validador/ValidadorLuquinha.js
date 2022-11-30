@@ -12,11 +12,12 @@ class ValidadorLuquinha extends Component{
             <div id="especial">
                 <div class="column is-half is-offset-one-quarter">
                     
-                    <div class="columns is-mobile">
-                        <div class="block">
-                            <img src={Logo} alt='logo' id="logo"/>
-                        </div>  
+                <div class="columns is-mobile">
+                    <div class="column is-three-fifths is-offset-one-fifth">
+                        <img src={Logo} alt='logo' id="logo"/>
                     </div>
+                </div>
+                
                 </div>
 
                 <div class="column is-half is-offset-one-quarter">
