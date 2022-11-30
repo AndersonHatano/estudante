@@ -14,23 +14,20 @@ class CarteiraLuquinha extends Component {
 
                 <div class="columns is-mobile">
                     <div class="column is-half is-offset-one-quarter">
+
                         <div  class="block">
                             <img src={LogoClubeDoEstudante} alt='logo'/>
                         </div>
+
+                        <div class="block">
+                            <button class="button is-danger is-rounded">MENU PRINCIPAL</button>
+                        </div>
+
+                        <div class="block">
+                            <button class="button is-danger is-rounded">VER PRÉVIA DA CIE</button>
+                        </div>
+
                     </div>
-                </div>
-
-
-                <div class="column is-half is-offset-one-quarter">
-
-                    <div class="block">
-                        <button class="button is-danger is-rounded">MENU PRINCIPAL</button>
-                    </div>
-                    
-                    <div class="block">
-                        <button class="button is-danger is-rounded">VER PRÉVIA DA CIE</button>
-                    </div>
-
                 </div>
 
                 <div class="block">
