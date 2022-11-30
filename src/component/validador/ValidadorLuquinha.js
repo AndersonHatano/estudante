@@ -10,7 +10,7 @@ class ValidadorLuquinha extends Component{
         return (
 
             <div id="especial">
-                <img src={Logo} alt='logo'/>
+                <img src={Logo} alt='logo' id="logo"/>
 
                 <p>Carteirinha válida até 31/03/2023</p>
 
