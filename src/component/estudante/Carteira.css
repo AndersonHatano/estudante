@@ -15,3 +15,9 @@
     font-family: inherit;
     justify-content: center;
 }
+
+h2 {
+    font-size: 200%;
+    color: rgb(0, 101, 195);
+    font-weight: 600;
+}
