@@ -10,34 +10,31 @@ class ValidadorLuquinha extends Component{
         return (
             
             <div id="especial">
-                <div class="column is-half is-offset-one-quarter">
+                <div class="columns is-mobile">
+                    <div class="column is-half is-offset-one-quarter">
 
-                    <div class="columns is-mobile">
-                            <div class="column is-half is-offset-one-quarter">
+                        <img src={Logo} alt='logo' id="logo"/>
 
-                                <img src={Logo} alt='logo' id="logo"/>
+                        <i class="fa-sharp fa-solid fa-circle-check fa-3x"></i>
 
-                                <i class="fa-sharp fa-solid fa-circle-check fa-3x"></i>
+                        <p class="texto-validador" id="texto-meio">Carteirinha válida até 31/03/2023</p>
 
-                                <p class="texto-validador" id="texto-meio">Carteirinha válida até 31/03/2023</p>
+                        <p class="texto-validador">
+                            <span class="texto-validador-negrito">Nome: </span>
+                            Lucas Mendes Santana
+                        </p>
 
-                                <p class="texto-validador">
-                                    <span class="texto-validador-negrito">Nome: </span>
-                                    Lucas Mendes Santana
-                                </p>
+                        <p class="texto-validador">
+                            <span class="texto-validador-negrito">Instituição de ensino: </span>
+                            Unipac
+                        </p>
 
-                                <p class="texto-validador">
-                                    <span class="texto-validador-negrito">Instituição de ensino: </span>
-                                    Unipac
-                                </p>
+                        <p class="texto-validador">
+                            <span class="texto-validador-negrito">Código de uso: </span>
+                            l8bNS5wFxBgdh0QW5Sc02
+                        </p>
 
-                                <p class="texto-validador">
-                                    <span class="texto-validador-negrito">Código de uso: </span>
-                                    l8bNS5wFxBgdh0QW5Sc02
-                                </p>
-
-                                <button class="button" id="buttonValidador">Baixar certificado de atributos</button>
-                        </div>
+                        <button class="button" id="buttonValidador">Baixar certificado de atributos</button>
                     </div>
                 </div>
             </div>
