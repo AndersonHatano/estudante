@@ -18,10 +18,12 @@ class ValidadorLuquinha extends Component{
                             <div class="block">
                                 <img src={Logo} alt='logo' id="logo"/>
                             </div>  
-                            
+
                         </div>
                     </div>
+                </div>
 
+                <div class="column is-half is-offset-one-quarter">
                     <i class="fa-sharp fa-solid fa-circle-check fa-3x"></i>
 
                     <p class="texto-validador" id="texto-meio">Carteirinha válida até 31/03/2023</p>
