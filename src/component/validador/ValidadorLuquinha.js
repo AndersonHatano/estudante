@@ -8,29 +8,38 @@ class ValidadorLuquinha extends Component{
     render(){
 
         return (
-
+            
             <div id="especial">
-                <img src={Logo} alt='logo' id="logo"/>
+                <div class="column is-half is-offset-one-quarter">
 
-                <p>Carteirinha válida até 31/03/2023</p>
+                    <div class="columns is-mobile">
+                            <div class="column is-half is-offset-one-quarter">
 
-                <p>
-                    <span>Nome: </span>
-                    Lucas Mendes Santana
-                </p>
+                                <img src={Logo} alt='logo' id="logo"/>
 
-                <p>
-                    <span>Instituição de ensino: </span>
-                    Unipac
-                </p>
+                                <i class="fa-sharp fa-solid fa-circle-check fa-3x"></i>
 
-                <p>
-                    <span>Código de uso: </span>
-                    l8bNS5wFxBgdh0QW5Sc02
-                </p>
+                                <p class="texto-validador" id="texto-meio">Carteirinha válida até 31/03/2023</p>
 
-                <button class="button" id="buttonValidador">Baixar certificado de atributos</button>
+                                <p class="texto-validador">
+                                    <span class="texto-validador-negrito">Nome: </span>
+                                    Lucas Mendes Santana
+                                </p>
 
+                                <p class="texto-validador">
+                                    <span class="texto-validador-negrito">Instituição de ensino: </span>
+                                    Unipac
+                                </p>
+
+                                <p class="texto-validador">
+                                    <span class="texto-validador-negrito">Código de uso: </span>
+                                    l8bNS5wFxBgdh0QW5Sc02
+                                </p>
+
+                                <button class="button" id="buttonValidador">Baixar certificado de atributos</button>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         );
