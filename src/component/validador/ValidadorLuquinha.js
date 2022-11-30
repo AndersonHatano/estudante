@@ -60,9 +60,10 @@ class ValidadorLuquinha extends Component{
                     </div>
                 </div>
 
-                <div class="column is-half is-offset-one-quarter"> 
-
-                    <button class="button" id="buttonValidador">Baixar certificado de atributos</button>
+                <div class="columns is-mobile">
+                    <div class="column is-three-fifths is-offset-one-fifth">  
+                        <button class="button" id="buttonValidador">Baixar certificado de atributos</button>
+                    </div>
                 </div>
             </div>
 
