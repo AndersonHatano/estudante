@@ -25,10 +25,12 @@
 
 #texto-meio{
     align-items: center;
+    padding: 50px;
 }
 
 .texto-validador{
     color: white;
+    align-items: center;
 }
 
 .texto-validador-negrito{
