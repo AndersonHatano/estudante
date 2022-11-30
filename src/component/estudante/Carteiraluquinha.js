@@ -18,7 +18,7 @@ class CarteiraLuquinha extends Component {
                         <div class="column is-half is-offset-one-quarter">
 
                             <div  class="block">
-                                <img src={LogoClubeDoEstudante} alt='logo'/>
+                                <img src={LogoClubeDoEstudante} alt='logo' id="logoCarteira"/>
                             </div>
 
                         </div>
@@ -38,7 +38,7 @@ class CarteiraLuquinha extends Component {
                 <div class="column is-half is-offset-one-quarter">
 
                     <div class="block">
-                        <img src={CarteiraLucas} alt='carteirinha lucas'/>
+                        <img src={CarteiraLucas} alt='carteirinha lucas' id="carteirinhafoto"/>
                     </div>
 
                     <div class="columns is-mobile">

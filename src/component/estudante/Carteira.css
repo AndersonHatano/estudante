@@ -16,6 +16,16 @@
     justify-content: center;
 }
 
+#logoCarteira{
+
+    padding-top: 100px;
+
+}
+
+#carteirinhafoto{
+    padding-top: 100px;
+}
+
 h2 {
     font-size: 200%;
     color: rgb(0, 101, 195);
