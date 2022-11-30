@@ -43,7 +43,7 @@ class ValidadorLuquinha extends Component{
 
 
                 <div class="columns is-mobile">
-                    <div class="column is-two-third is-offset-one-third">  
+                    <div class="column is-three-fifths is-offset-one-fifth">  
                         <p class="texto-validador">
                             <span class="texto-validador-negrito">Instituição de ensino: </span>
                             Unipac
@@ -52,7 +52,7 @@ class ValidadorLuquinha extends Component{
                 </div>
 
                 <div class="columns is-mobile">
-                    <div class="column is-two-third is-offset-one-third">  
+                    <div class="column is-three-fifths is-offset-one-fifth">  
                         <p class="texto-validador">
                             <span class="texto-validador-negrito">Código de uso: </span>
                             l8bNS5wFxBgdh0QW5Sc02
