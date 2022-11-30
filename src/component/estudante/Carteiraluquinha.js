@@ -24,11 +24,11 @@ class CarteiraLuquinha extends Component {
                     </div>
 
                     <div>
-                        <button class="button is-rounded">MENU PRINCIPAL</button>
+                        <button class="button is-rounded" id="buttonCarteira">MENU PRINCIPAL</button>
                     </div>
 
                     <div>
-                        <button class="button is-rounded">VER PRÉVIA DA CIE</button>
+                        <button class="button is-rounded" id="buttonCarteira">VER PRÉVIA DA CIE</button>
                     </div>
 
                         

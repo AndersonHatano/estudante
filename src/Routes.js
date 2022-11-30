@@ -5,6 +5,7 @@ import ServicoCadastro from './component/servico/servico'
 import InsumoCadastro from './component/insumo/insumo'
 import HorarioSalvar from './component/horario/horario'
 import CarteiraLuquinha from './component/estudante/Carteiraluquinha';
+import ValidadorLuquinha from './component/validador/ValidadorLuquinha';
 
 
 /*import Cliente from './components/pages/Cliente';*/
@@ -31,6 +32,10 @@ export function Routes(){
 
           <Route exact path="/lucas">
               <CarteiraLuquinha></CarteiraLuquinha>
+          </Route>
+
+          <Route exact path="/validadorlucas">
+              <ValidadorLuquinha></ValidadorLuquinha>
           </Route>
 
         </Switch>    
