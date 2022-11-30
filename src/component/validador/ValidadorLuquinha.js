@@ -9,7 +9,7 @@ class ValidadorLuquinha extends Component{
 
         return (
             
-            <div id="especial">
+            <div class="columns is-mobile" id="especial">
                 <div class="column is-half is-offset-one-quarter">
                     
                     <div class="columns is-mobile">
