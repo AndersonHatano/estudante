@@ -27,7 +27,7 @@ class ValidadorLuquinha extends Component{
                 </div>
 
                 <div class="columns is-mobile">
-                    <div class="column is-two-third is-offset-one-third">
+                    <div class="column is-half is-offset-one-quarter">
                         <p class="texto-validador" id="texto-meio">Carteirinha válida até 31/03/2023</p>
                     </div>
                 </div>
