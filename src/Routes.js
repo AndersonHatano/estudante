@@ -34,7 +34,7 @@ export function Routes(){
               <CarteiraLuquinha></CarteiraLuquinha>
           </Route>
 
-          <Route exact path="/validadorlucas">
+          <Route exact path="/validacao/d2dea299-6e4f-45d8-99c2-3d32dea8092a">
               <ValidadorLuquinha></ValidadorLuquinha>
           </Route>
 
