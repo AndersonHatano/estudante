@@ -1,0 +1,90 @@
+import React, { Component } from "react";
+import Logo from '../validador/logoVerde.png'
+import { Redirect } from 'react-router-dom'
+
+class LoginEstudante extends Component {
+
+    constructor(props){
+        super(props);
+
+        this.state ={
+            email: "",
+            senha: "",
+            redirectTo : null
+        };
+    }
+
+    handleChange(changeObject) {
+        this.setState(changeObject);
+    }
+
+
+    teste(e){
+        
+        var email = this.state.email;
+        var senha = this.state.senha;
+
+        if(email === "lucas" && senha === "lucas123"){
+            this.setState({redirectTo : "l8bNS5wFxBgdh0QW5Sc02"})
+        }
+
+        else{
+            alert("Email e/ou senha errada!!");
+            this.setState({
+                email: "",
+                senha: "",
+                redirectTo : null
+            })
+        }
+    }
+
+    render(){
+
+        if(this.state.redirectTo){
+            return (
+                <Redirect to={this.state.redirectTo}/>
+            );
+        }
+
+        return(
+            <div class="column is-three-fifths is-offset-one-fifth ">
+
+                <div class="columns is-mobile">
+                    <div class="column is-three-fifths is-offset-one-fifth">
+                        <img src={Logo} alt='logo' id="logo"/>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <div class="control">
+                        <input class="input" type="email" placeholder="Email"
+                        value={this.state.email}
+                            onChange={(e) => this.handleChange({email: e.target.value})}/>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <div class="control">
+                        <input class="input" type="password" placeholder="Senha"
+                        value={this.state.senha}
+                        onChange={(e) => this.handleChange({senha: e.target.value})}/>
+                    </div>
+                </div>
+
+                <div>
+                    <button class="button is-rounded" id="buttonCarteira" 
+                    onClick={(e) => this.teste(e)}>ENTRAR</button>
+                </div>
+
+                <div>
+                    <button class="button is-rounded" id="buttonCarteira" >RECUPERA SENHA</button>
+                </div>
+
+            </div>
+
+        );
+    }
+
+}
+
+export default LoginEstudante;

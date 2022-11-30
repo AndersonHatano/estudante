@@ -2,12 +2,30 @@ import React, { Component } from "react";
 import CarteiraLucas from '../estudante/luquinha.jpg'
 import LogoClubeDoEstudante from '../estudante/clubeDoEstudante2.jpg'
 import qrCodeLuquinha from '../estudante/qrCodeLuquinha.png'
+import { Redirect } from 'react-router-dom'
 import '../estudante/Carteira.css'
 
 class CarteiraLuquinha extends Component {
 
+    constructor(props){
+        super(props);
+
+        this.state ={
+            redirectTo : null
+        };
+    }
+
+    voltarMenu(e){
+        this.setState({redirectTo : "login"})
+    }
 
     render(){
+        
+        if(this.state.redirectTo){
+            return (
+                <Redirect to={this.state.redirectTo}/>
+            );
+        }
 
         return (
 
@@ -25,7 +43,8 @@ class CarteiraLuquinha extends Component {
                     </div>
 
                     <div>
-                        <button class="button is-rounded" id="buttonCarteira">MENU PRINCIPAL</button>
+                        <button class="button is-rounded" id="buttonCarteira"
+                        onClick={(e) => this.voltarMenu(e)}>MENU PRINCIPAL</button>
                     </div>
 
                     <div>
