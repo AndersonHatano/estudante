@@ -20,7 +20,7 @@ class ValidadorLuquinha extends Component{
 
                 <div class="columns is-mobile">
                     <div class="column is-two-third is-offset-one-third" id="check">
-                        <i class="fa-sharp fa-solid fa-circle-check fa-3x"></i>
+                        <i class="fa-sharp fa-solid fa-circle-check fa-4x"></i>
                     </div>
                 </div>
 
