@@ -7,11 +7,13 @@ class AddUser extends Component {
 
         this.state ={
             id: null,
-            name: "",
+            nome: "",
             cpf: "",
-            dateBirth: "",
+            dataNascimento: "",
             email: "",
-            password: ""
+            senha: "",
+            celular: "",
+            prestador: true
         };
     }
 
@@ -20,18 +22,21 @@ class AddUser extends Component {
         e.preventDefault();
     
         // creates entity
-        fetch("http://localhost:8080/user", {
+        fetch("http://localhost:8080/usuario", {
+          "mode": "no-cors",
           "method": "POST",
           "headers": {
             "content-type": "application/json",
             "accept": "application/json"
           },
           "body": JSON.stringify({
-            name: this.state.name,
+            nome: this.state.nome,
             email: this.state.email,
-            password: this.state.password,
+            senha: this.state.senha,
             cpf: this.state.cpf,
-            dateBirth: this.state.dateBirth
+            dataNascimento: this.state.dataNascimento,
+            celular: this.state.celular,
+            prestador: this.state.prestador
           })
         })
         .then(response => response.json())
@@ -59,8 +64,8 @@ class AddUser extends Component {
                         <label class="label">Nome</label>
                         <div class="control">
                         <input class="input" type="text" placeholder="Nome" 
-                        value={this.state.name}
-                        onChange={(e) => this.handleChange({name: e.target.value})}/>
+                        value={this.state.nome}
+                        onChange={(e) => this.handleChange({nome: e.target.value})}/>
                         </div>
                     </div>
     
@@ -77,17 +82,36 @@ class AddUser extends Component {
                         <label class="label">Data de Nascimento</label>
                         <div class="control">
                         <input class="input" type="date" placeholder="01/01/1990"
-                        value={this.state.dateBirth}
-                        onChange={(e) => this.handleChange({dateBirth: e.target.value})}/>
+                        value={this.state.dataNascimento}
+                        onChange={(e) => this.handleChange({dataNascimento: e.target.value})}/>
                         </div>
                     </div>
     
                     <div class="field">
                         <label class="label">CPF</label>
                         <div class="control">
-                        <input class="input" type="texte" placeholder="CPF"
+                        <input class="input" type="text" placeholder="CPF"
                         value={this.state.cpf}
                         onChange={(e) => this.handleChange({cpf: e.target.value})}/>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="label">Celular</label>
+                        <div class="control">
+                        <input class="input" type="text" placeholder="celular"
+                        value={this.state.celular}
+                        onChange={(e) => this.handleChange({celular: e.target.value})}/>
+                        </div>
+                    </div>
+
+                    
+                    <div class="field">
+                        <label class="checkbox">Prestador?</label>
+                        <div class="control">
+                        <input type="checkbox"
+                        value={this.state.prestador}
+                        onChange={(e) => this.handleChange({prestador: e.target.value})}/>
                         </div>
                     </div>
     
@@ -95,8 +119,8 @@ class AddUser extends Component {
                         <label class="label">Password</label>
                         <div class="control">
                         <input class="input" type="password" placeholder="********"
-                        value={this.state.password}
-                        onChange={(e) => this.handleChange({password: e.target.value})}/>
+                        value={this.state.senha}
+                        onChange={(e) => this.handleChange({senha: e.target.value})}/>
                         </div>
                     </div>
     
