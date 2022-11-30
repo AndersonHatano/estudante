@@ -40,8 +40,10 @@ class CarteiraLuquinha extends Component {
                         <img src={CarteiraLucas} alt='carteirinha lucas'/>
                     </div>
 
-                    <div class="column is-half is-offset-one-quarter">
-                        <h2>QRCode de validação:</h2>
+                    <div class="columns is-mobile">
+                        <div class="column is-half is-offset-one-quarter">
+                            <h2>QRCode de validação:</h2>
+                        </div>
                     </div>
                     
                 </div>
