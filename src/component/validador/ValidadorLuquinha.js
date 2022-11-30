@@ -15,13 +15,14 @@ class ValidadorLuquinha extends Component{
                 <div class="columns is-mobile">
                     <div class="column is-three-fifths is-offset-one-fifth">
                         <img src={Logo} alt='logo' id="logo"/>
+                        <i class="fa-sharp fa-solid fa-circle-check fa-3x"></i>
                     </div>
                 </div>
-                
+
                 </div>
 
                 <div class="column is-half is-offset-one-quarter">
-                    <i class="fa-sharp fa-solid fa-circle-check fa-3x"></i>
+
 
                     <p class="texto-validador" id="texto-meio">Carteirinha válida até 31/03/2023</p>
 
