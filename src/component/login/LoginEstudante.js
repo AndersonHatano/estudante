@@ -23,22 +23,25 @@ class LoginEstudante extends Component {
         
         var email = this.state.email;
         var senha = this.state.senha;
+        var invalido = true;
 
         if(email === "lucas" && senha === "lucas123"){
-            this.setState({redirectTo : "l8bNS5wFxBgdh0QW5Sc02"})
+            this.setState({redirectTo : "l8bNS5wFxBgdh0QW5Sc02"});
+            invalido = false;
         }
 
         if(email === "ricardo" && senha === "ricardo123"){
-            this.setState({redirectTo : "P2bFT8wFxfgdg0QW8Sc04"})
+            this.setState({redirectTo : "P2bFT8wFxfgdg0QW8Sc04"});
+            invalido = false;
         }
 
-        else{
+        if(invalido){
             alert("Email e/ou senha errada!!");
             this.setState({
                 email: "",
                 senha: "",
                 redirectTo : null
-            })
+            });
         }
     }
 
