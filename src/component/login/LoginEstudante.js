@@ -28,6 +28,10 @@ class LoginEstudante extends Component {
             this.setState({redirectTo : "l8bNS5wFxBgdh0QW5Sc02"})
         }
 
+        if(email === "ricardo" && senha === "ricardo123"){
+            this.setState({redirectTo : "P2bFT8wFxfgdg0QW8Sc04"})
+        }
+
         else{
             alert("Email e/ou senha errada!!");
             this.setState({

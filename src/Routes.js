@@ -7,6 +7,8 @@ import HorarioSalvar from './component/horario/horario'
 import CarteiraLuquinha from './component/estudante/Carteiraluquinha';
 import ValidadorLuquinha from './component/validador/ValidadorLuquinha';
 import LoginEstudante from './component/login/LoginEstudante'
+import CarteiraRicardo from './component/estudante/CarteiraRicardo';
+import ValidadorRicardo from './component/validador/ValidadorRicardo';
 
 
 /*import Cliente from './components/pages/Cliente';*/
@@ -33,6 +35,14 @@ export function Routes(){
 
           <Route exact path="/l8bNS5wFxBgdh0QW5Sc02">
               <CarteiraLuquinha></CarteiraLuquinha>
+          </Route>
+
+          <Route exact path="/P2bFT8wFxfgdg0QW8Sc04">
+              <CarteiraRicardo></CarteiraRicardo>
+          </Route>
+
+          <Route exact path="/validacao/49ec6703-df3f-4036-94c7-b527cd3c1eb0">
+              <ValidadorRicardo></ValidadorRicardo>
           </Route>
 
           <Route exact path="/validacao/d2dea299-6e4f-45d8-99c2-3d32dea8092a">
