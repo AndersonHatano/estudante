@@ -46,7 +46,7 @@ class ValidadorRafael extends Component{
                     <div class="column is-three-fifths is-offset-one-fifth">  
                         <p class="texto-validador">
                             <span class="texto-validador-negrito">Instituição de ensino: </span>
-                            Unipac
+                            Centro Universitário UNA
                         </p>
                     </div>
                 </div>
