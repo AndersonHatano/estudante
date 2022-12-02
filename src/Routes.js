@@ -11,6 +11,8 @@ import CarteiraRicardo from './component/estudante/CarteiraRicardo';
 import ValidadorRicardo from './component/validador/ValidadorRicardo';
 import ValidadorGabriel from './component/validador/ValidadorGabriel';
 import CarteiraGabriel from './component/estudante/CarteiraGabriel';
+import ValidadorRafael from './component/validador/ValidadorRafael';
+import CarteiraRafael from './component/estudante/CarteiraRafael';
 
 
 /*import Cliente from './components/pages/Cliente';*/
@@ -55,8 +57,16 @@ export function Routes(){
               <ValidadorGabriel></ValidadorGabriel>
           </Route>
 
+          <Route exact path="/validacao/f67b5b21-9ee0-48b9-9c7e-ce64de715ff8">
+              <ValidadorRafael></ValidadorRafael>
+          </Route>
+
           <Route exact path="/l5dMY5nWpBhdh7YW5Sc01">
               <CarteiraGabriel></CarteiraGabriel>
+          </Route>
+
+          <Route exact path="/d8bNS5wXpAgdh7QW4Sq97">
+              <CarteiraRafael></CarteiraRafael>
           </Route>
 
           <Route exact path="/login">
