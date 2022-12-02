@@ -9,6 +9,8 @@ import ValidadorLuquinha from './component/validador/ValidadorLuquinha';
 import LoginEstudante from './component/login/LoginEstudante'
 import CarteiraRicardo from './component/estudante/CarteiraRicardo';
 import ValidadorRicardo from './component/validador/ValidadorRicardo';
+import ValidadorGabriel from './component/validador/ValidadorGabriel';
+import CarteiraGabriel from './component/estudante/CarteiraGabriel';
 
 
 /*import Cliente from './components/pages/Cliente';*/
@@ -47,6 +49,14 @@ export function Routes(){
 
           <Route exact path="/validacao/d2dea299-6e4f-45d8-99c2-3d32dea8092a">
               <ValidadorLuquinha></ValidadorLuquinha>
+          </Route>
+
+          <Route exact path="/validacao/3052eeb2-9a74-48ae-bc90-a2a344b78b07">
+              <ValidadorGabriel></ValidadorGabriel>
+          </Route>
+
+          <Route exact path="/l5dMY5nWpBhdh7YW5Sc01">
+              <CarteiraGabriel></CarteiraGabriel>
           </Route>
 
           <Route exact path="/login">
