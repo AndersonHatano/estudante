@@ -4,17 +4,19 @@ import AddUser from './component/cadaster/cadaster';
 import ServicoCadastro from './component/servico/servico'
 import InsumoCadastro from './component/insumo/insumo'
 import HorarioSalvar from './component/horario/horario'
-import CarteiraLuquinha from './component/estudante/Carteiraluquinha';
+import CarteiraLuquinha from './component/estudante/carteiraLucasSantana/Carteiraluquinha';
 import ValidadorLuquinha from './component/validador/ValidadorLuquinha';
 import LoginEstudante from './component/login/LoginEstudante'
-import CarteiraRicardo from './component/estudante/CarteiraRicardo';
+import CarteiraRicardo from './component/estudante/carteiraRicardo/CarteiraRicardo';
 import ValidadorRicardo from './component/validador/ValidadorRicardo';
 import ValidadorGabriel from './component/validador/ValidadorGabriel';
-import CarteiraGabriel from './component/estudante/CarteiraGabriel';
+import CarteiraGabriel from './component/estudante/carteiraGabriel/CarteiraGabriel';
 import ValidadorRafael from './component/validador/ValidadorRafael';
-import CarteiraRafael from './component/estudante/CarteiraRafael';
+import CarteiraRafael from './component/estudante/carteiraRafael/CarteiraRafael';
 import ValidadorLuana from './component/validador/ValidadorLuana';
-import CarteiraLuana from './component/estudante/CarteiraLuana';
+import CarteiraLuana from './component/estudante/carteiraLuana/CarteiraLuana';
+import CarteiraCecilia from './component/estudante/carteiraCecilia/CarteiraCecilia';
+import ValidadorCecilia from './component/validador/ValidadorCecilia';
 
 /*import Cliente from './components/pages/Cliente';*/
 
@@ -66,6 +68,10 @@ export function Routes(){
               <ValidadorLuana></ValidadorLuana>
           </Route>
 
+          <Route exact path="/validacao/08745bfa-cca4-4e29-8047-62953f2552b8">
+              <ValidadorCecilia></ValidadorCecilia>
+          </Route>
+
           <Route exact path="/l5dMY5nWpBhdh7YW5Sc01">
               <CarteiraGabriel></CarteiraGabriel>
           </Route>
@@ -76,6 +82,10 @@ export function Routes(){
 
           <Route exact path="/j5bBD8wGxEgdh7QW5Sc65">
               <CarteiraLuana></CarteiraLuana>
+          </Route>
+
+          <Route exact path="/q5bDS4wSfBawh0GN5Tc34">
+              <CarteiraCecilia></CarteiraCecilia>
           </Route>
 
           <Route exact path="/login">

@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import CarteirinhaGabriel from '../estudante/carteiraGabriel.png'
-import LogoClubeDoEstudante from '../estudante/clubeDoEstudante2.jpg'
-import qrCodeGabriel from '../estudante/qrCodeGabriel.png'
+import CarteirinhaLuana from '../carteiraLuana/carteiraLuana.png'
+import LogoClubeDoEstudante from '../clubeDoEstudante2.jpg'
+import qrCodeLuana from '../carteiraLuana/qrCodeLuana.png'
 import { Redirect } from 'react-router-dom'
-import '../estudante/Carteira.css'
+import '../Carteira.css'
 
-class CarteiraGabriel extends Component {
+class CarteiraLuana extends Component {
 
     constructor(props){
         super(props);
@@ -57,7 +57,7 @@ class CarteiraGabriel extends Component {
                 <div class="column is-half is-offset-one-quarter">
 
                     <div class="block">
-                        <img src={CarteirinhaGabriel} alt='carteirinha ricardo' id="carteirinhafoto"/>
+                        <img src={CarteirinhaLuana} alt='carteirinha luana' id="carteirinhafoto"/>
                     </div>
 
                     <div class="columns is-mobile">
@@ -70,7 +70,7 @@ class CarteiraGabriel extends Component {
                         <div class="column is-half is-offset-one-quarter">
 
                             <div  class="block">
-                                <img src={qrCodeGabriel} alt='qr code gabriel'/>
+                                <img src={qrCodeLuana} alt='qr code luana'/>
                             </div>
 
                         </div>
@@ -86,4 +86,4 @@ class CarteiraGabriel extends Component {
 
 }
 
-export default CarteiraGabriel;
+export default CarteiraLuana;

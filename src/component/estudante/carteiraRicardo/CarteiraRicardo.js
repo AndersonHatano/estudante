@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import carteirinhaRicardo from '../estudante/carteirinhaRicardo.png'
-import LogoClubeDoEstudante from '../estudante/clubeDoEstudante2.jpg'
-import qrCodeRicardo from '../estudante/qrCodeRicardo2.png'
+import carteirinhaRicardo from '../carteiraRicardo/carteirinhaRicardo.png'
+import LogoClubeDoEstudante from '../clubeDoEstudante2.jpg'
+import qrCodeRicardo from '../carteiraRicardo/qrCodeRicardo2.png'
 import { Redirect } from 'react-router-dom'
-import '../estudante/Carteira.css'
+import '../Carteira.css'
 
 class CarteiraRicardo extends Component {
 
