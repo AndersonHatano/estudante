@@ -19,6 +19,8 @@ import CarteiraCecilia from './component/estudante/carteiraCecilia/CarteiraCecil
 import ValidadorCecilia from './component/validador/ValidadorCecilia';
 import CarteiraCalango from './component/estudante/carteiraCalango/CarteiraCalango';
 import ValidadorCalango from './component/validador/ValidadorCalango';
+import ValidadorMarcia from './component/validador/ValidadorMarcia';
+import CarteiraMarcia from './component/estudante/carteiraMarcia/CarteiraMarcia';
 
 /*import Cliente from './components/pages/Cliente';*/
 
@@ -78,6 +80,10 @@ export function Routes(){
               <ValidadorCalango></ValidadorCalango>
           </Route>
 
+          <Route exact path="/validacao/a08667d3-f5d1-4c07-8f16-8b7661464d19">
+              <ValidadorMarcia></ValidadorMarcia>
+          </Route>
+
           <Route exact path="/l5dMY5nWpBhdh7YW5Sc01">
               <CarteiraGabriel></CarteiraGabriel>
           </Route>
@@ -96,6 +102,10 @@ export function Routes(){
 
           <Route exact path="/p7bFG5wFxFgdh8AW78a81">
               <CarteiraCalango></CarteiraCalango>
+          </Route>
+
+          <Route exact path="/h5bGS4962wqFxyBgdah0WW5Sc22">
+              <CarteiraMarcia></CarteiraMarcia>
           </Route>
 
           <Route exact path="/login">
