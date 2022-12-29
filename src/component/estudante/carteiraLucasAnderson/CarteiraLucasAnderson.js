@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import CarteiraLucas from '../carteiraLucasAnderson/lucasAnderson.jpg'
+import CarteiraLucas from '../carteiraLucasAnderson/lucasAnderson.JPG'
 import LogoClubeDoEstudante from '../clubeDoEstudante2.jpg'
 import qrCodeLuquinha from '../carteiraLucasSantana/qrCodeLuquinha.png'
 import { Redirect } from 'react-router-dom'
