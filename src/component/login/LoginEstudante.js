@@ -67,7 +67,7 @@ class LoginEstudante extends Component {
         }
         
 
-        if(email === "lucassantana1994@gmail.com" && senha === "lucas123"){
+        if(email === "lucassantana" && senha === "lucas123"){
             this.setState({redirectTo : "1d00910d-5bf1-4aaa-a952-8d027c8ce60f"});
             invalido = false;
         }
@@ -100,7 +100,7 @@ class LoginEstudante extends Component {
 
                 <div class="field">
                     <div class="control">
-                        <input class="input" type="email" placeholder="Email"
+                        <input class="input" type="email" placeholder="login"
                         value={this.state.email}
                             onChange={(e) => this.handleChange({email: e.target.value})}/>
                     </div>
