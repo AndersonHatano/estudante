@@ -21,6 +21,7 @@ import CarteiraCalango from './component/estudante/carteiraCalango/CarteiraCalan
 import ValidadorCalango from './component/validador/ValidadorCalango';
 import ValidadorMarcia from './component/validador/ValidadorMarcia';
 import CarteiraMarcia from './component/estudante/carteiraMarcia/CarteiraMarcia';
+import CarteiraLucasAnderson from './component/estudante/carteiraLucasAnderson/CarteiraLucasAnderson';
 
 /*import Cliente from './components/pages/Cliente';*/
 
@@ -106,6 +107,10 @@ export function Routes(){
 
           <Route exact path="/h5bGS4962wqFxyBgdah0WW5Sc22">
               <CarteiraMarcia></CarteiraMarcia>
+          </Route>
+
+          <Route exact path="/1d00910d-5bf1-4aaa-a952-8d027c8ce60f">
+              <CarteiraLucasAnderson></CarteiraLucasAnderson>
           </Route>
 
           <Route exact path="/login">
