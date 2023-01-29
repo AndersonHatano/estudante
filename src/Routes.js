@@ -26,6 +26,8 @@ import CarteiraJapa from './component/estudante/carteiraJapa/CarteiraJapa';
 import ValidadorJapa from './component/validador/ValidadorJapa';
 import ValidadorThayna from './component/validador/ValidadorThayna';
 import CarteiraThayna from './component/estudante/carteiraThayna/CarteiraThayna';
+import ValidadorPaulo from './component/validador/ValidadorPaulo';
+import CarteiraPaulo from './component/estudante/carteiraPaulo/CarteiraPaulo';
 
 /*import Cliente from './components/pages/Cliente';*/
 
@@ -97,6 +99,10 @@ export function Routes(){
               <ValidadorThayna></ValidadorThayna>
           </Route>
 
+          <Route exact path="/validacao/5f733034-7571-44e6-81f5-4b62374eb848">
+              <ValidadorPaulo></ValidadorPaulo>
+          </Route>
+
           <Route exact path="/l5dMY5nWpBhdh7YW5Sc01">
               <CarteiraGabriel></CarteiraGabriel>
           </Route>
@@ -133,6 +139,10 @@ export function Routes(){
               <CarteiraThayna></CarteiraThayna>
           </Route>
 
+
+          <Route exact path="/A3cNS8wFc5gdh5GW5Sd50">
+              <CarteiraPaulo></CarteiraPaulo>
+          </Route>
 
           <Route exact path="/login">
               <LoginEstudante></LoginEstudante>
