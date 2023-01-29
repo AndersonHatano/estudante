@@ -120,7 +120,7 @@ export function Routes(){
           </Route>
 
           <Route exact path="/s8bGS4VxBgdh0QW6Dc12">
-              <CarteiraLucasAnderson></CarteiraLucasAnderson>
+              <CarteiraJapa></CarteiraJapa>
           </Route>
 
 
