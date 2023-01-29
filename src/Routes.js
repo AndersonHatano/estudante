@@ -22,6 +22,8 @@ import ValidadorCalango from './component/validador/ValidadorCalango';
 import ValidadorMarcia from './component/validador/ValidadorMarcia';
 import CarteiraMarcia from './component/estudante/carteiraMarcia/CarteiraMarcia';
 import CarteiraLucasAnderson from './component/estudante/carteiraLucasAnderson/CarteiraLucasAnderson';
+import CarteiraJapa from './component/estudante/carteiraJapa/CarteiraJapa';
+import ValidadorJapa from './component/validador/ValidadorJapa';
 
 /*import Cliente from './components/pages/Cliente';*/
 
@@ -85,6 +87,10 @@ export function Routes(){
               <ValidadorMarcia></ValidadorMarcia>
           </Route>
 
+          <Route exact path="/validacao/d9c2c800-ba8a-4b6d-bf1b-73664054a4df">
+              <ValidadorJapa></ValidadorJapa>
+          </Route>
+
           <Route exact path="/l5dMY5nWpBhdh7YW5Sc01">
               <CarteiraGabriel></CarteiraGabriel>
           </Route>
@@ -112,6 +118,11 @@ export function Routes(){
           <Route exact path="/1d00910d-5bf1-4aaa-a952-8d027c8ce60f">
               <CarteiraLucasAnderson></CarteiraLucasAnderson>
           </Route>
+
+          <Route exact path="/s8bGS4VxBgdh0QW6Dc12">
+              <CarteiraLucasAnderson></CarteiraLucasAnderson>
+          </Route>
+
 
           <Route exact path="/login">
               <LoginEstudante></LoginEstudante>
