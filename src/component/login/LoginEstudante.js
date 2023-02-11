@@ -87,6 +87,31 @@ class LoginEstudante extends Component {
             invalido = false;
         }
 
+        if(email === "cleuber" && senha === "cleuber123"){
+            this.setState({redirectTo : "k8cSC8asxNsgd9SB4Sc13"});
+            invalido = false;
+        }
+
+        if(email === "gabriela" && senha === "gabriela123"){
+            this.setState({redirectTo : "t7cSD5asxWsgd8SA4Sc21"});
+            invalido = false;
+        }
+
+        if(email === "renata" && senha === "renata123"){
+            this.setState({redirectTo : "j8bNS5wSxvgeH0wE8Dc22"});
+            invalido = false;
+        }
+
+        if(email === "debora" && senha === "debora123"){
+            this.setState({redirectTo : "A4cKD8wvCaGdh7QW5Sd45"});
+            invalido = false;
+        }
+
+        if(email === "jeova" && senha === "jeova123"){
+            this.setState({redirectTo : "d5bGS8Mwf5gdh7SD4Hc13"});
+            invalido = false;
+        }
+
         if(invalido){
             alert("Email e/ou senha errada!!");
             this.setState({
