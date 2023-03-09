@@ -38,7 +38,7 @@ import CarteiraDebora from './component/estudante/carteiraDebora/CarteiraDebora'
 import ValidadorDebora from './component/validador/ValidadorDebora';
 import CarteiraJeova from './component/estudante/carteiraJeova/CarteiraJeova';
 import ValidadorJeova from './component/validador/ValidadorJeova';
-import CarteiraInacio from './component/estudante/carteiraInacio copy/CarteiraInacio';
+import CarteiraInacio from './component/estudante/carteiraInacio/CarteiraInacio';
 import ValidadorInacio from './component/validador/ValidadorInacio';
 import CarteiraLuisa from './component/estudante/carteiraLuisa/CarteiraLuisa';
 import ValidadorLuisa from './component/validador/ValidadorLuisa';
