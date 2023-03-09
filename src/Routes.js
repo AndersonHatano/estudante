@@ -38,6 +38,10 @@ import CarteiraDebora from './component/estudante/carteiraDebora/CarteiraDebora'
 import ValidadorDebora from './component/validador/ValidadorDebora';
 import CarteiraJeova from './component/estudante/carteiraJeova/CarteiraJeova';
 import ValidadorJeova from './component/validador/ValidadorJeova';
+import CarteiraInacio from './component/estudante/carteiraInacio copy/CarteiraInacio';
+import ValidadorInacio from './component/validador/ValidadorInacio';
+import CarteiraLuisa from './component/estudante/carteiraLuisa/CarteiraLuisa';
+import ValidadorLuisa from './component/validador/ValidadorLuisa';
 
 /*import Cliente from './components/pages/Cliente';*/
 
@@ -133,6 +137,14 @@ export function Routes(){
               <ValidadorJeova></ValidadorJeova>
           </Route>
 
+          <Route exact path="/validacao/cacc2cc4-df00-4047-8618-dd8615a9e290">
+              <ValidadorInacio></ValidadorInacio>
+          </Route>
+
+          <Route exact path="/validacao/3adc7ca6-5898-4fd9-b3fd-82ff25209f06">
+              <ValidadorLuisa></ValidadorLuisa>
+          </Route>
+
           <Route exact path="/l5dMY5nWpBhdh7YW5Sc01">
               <CarteiraGabriel></CarteiraGabriel>
           </Route>
@@ -192,6 +204,14 @@ export function Routes(){
 
           <Route exact path="/d5bGS8Mwf5gdh7SD4Hc13">
               <CarteiraJeova></CarteiraJeova>
+          </Route>
+
+          <Route exact path="/h8cMS4wNx9gdd8QE5Sc32">
+              <CarteiraInacio></CarteiraInacio>
+          </Route>
+
+          <Route exact path="/p2cGS5wDxCgdh8WQ6As28">
+              <CarteiraLuisa></CarteiraLuisa>
           </Route>
 
           <Route exact path="/login">
