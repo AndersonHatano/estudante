@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import CarteiraLucas from '../carteiraLucasAnderson/lucasAnderson.JPG'
+import carteiraAnderson from './carteiraAnderson.JPG'
 import LogoClubeDoEstudante from '../clubeDoEstudante2.jpg'
-import qrCodeLuquinha from '../carteiraLucasSantana/qrCodeLuquinha.png'
+import qrCodeLuquinha from '../carteiraAnderson/qrCodeAnderson.png'
 import { Redirect } from 'react-router-dom'
 import '../Carteira.css'
 
-class CarteiraLucasAnderson extends Component {
+class CarteiraAnderson extends Component {
 
     constructor(props){
         super(props);
@@ -57,7 +57,7 @@ class CarteiraLucasAnderson extends Component {
                 <div class="column is-half is-offset-one-quarter">
 
                     <div class="block">
-                        <img src={CarteiraLucas} alt='carteirinha lucas' id="carteirinhafoto"/>
+                        <img src={carteiraAnderson} alt='carteirinha Anderson' id="carteirinhafoto"/>
                     </div>
 
                     <div class="columns is-mobile">
@@ -70,7 +70,7 @@ class CarteiraLucasAnderson extends Component {
                         <div class="column is-half is-offset-one-quarter">
 
                             <div  class="block">
-                                <img src={qrCodeLuquinha} alt='qr code luquinha'/>
+                                <img src={qrCodeLuquinha} alt='qr code Anderson'/>
                             </div>
 
                         </div>
@@ -86,4 +86,4 @@ class CarteiraLucasAnderson extends Component {
 
 }
 
-export default CarteiraLucasAnderson;
+export default CarteiraAnderson;
