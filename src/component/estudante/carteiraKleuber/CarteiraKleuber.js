@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import carteirinhaKleuber from './carteirinhaKleuber.JPG'
 import LogoClubeDoEstudante from '../clubeDoEstudante2.jpg'
-import qrCodeKleuber from '../CarteiraKleuber/qrCodeKleuber.png'
+import qrCodeKleuber from '../carteiraKleuber/qrCodeKleuber.png'
 import { Redirect } from 'react-router-dom'
 import '../Carteira.css'
 
