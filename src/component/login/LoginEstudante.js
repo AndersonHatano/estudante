@@ -132,6 +132,11 @@ class LoginEstudante extends Component {
             invalido = false;
         }
 
+        if(email === "suzzane" && senha === "suzzane123"){
+            this.setState({redirectTo : "l8dNS4wDfVwsa7WD8Ac22"});
+            invalido = false;
+        }
+
         if(invalido){
             alert("Email e/ou senha errada!!");
             this.setState({
