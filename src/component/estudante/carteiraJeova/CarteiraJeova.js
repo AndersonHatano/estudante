@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import carteiraJeova from '../carteiraJeova/carteiraJeova.png'
+import carteiraJeova from '../carteiraJeova/carteirinhaJeova.JPG'
 import LogoClubeDoEstudante from '../clubeDoEstudante2.jpg'
 import qrCodeJeova from '../carteiraJeova/qrCodeJeova.png'
 import { Redirect } from 'react-router-dom'
