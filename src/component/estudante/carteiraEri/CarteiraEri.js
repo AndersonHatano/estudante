@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import carteiraEri from './carteirinhaEri.JPG'
 import LogoClubeDoEstudante from '../clubeDoEstudante2.jpg'
-import qrCodeEri from '../CarteiraEri/qrCodeEri.png'
+import qrCodeEri from '../carteiraEri/qrCodeEri.png.'
 import { Redirect } from 'react-router-dom'
 import '../Carteira.css'
 
