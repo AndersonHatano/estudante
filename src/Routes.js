@@ -50,6 +50,8 @@ import CarteiraSuzzane from './component/estudante/carteiraSuzzane/carteiraSuzza
 import ValidadorSuzzane from './component/validador/ValidadorSuzzane';
 import CarteiraKleuber from './component/estudante/carteiraKleuber/CarteiraKleuber';
 import ValidadorKleuber from './component/validador/ValidadorKleuber';
+import CarteiraEri from './component/estudante/carteiraEri/CarteiraEri';
+import ValidadorEri from './component/validador/ValidadorEri';
 
 /*import Cliente from './components/pages/Cliente';*/
 
@@ -79,6 +81,10 @@ export function Routes(){
 
           <Route exact path="/P2bFT8wFxfgdg0QW8Sc04">
               <CarteiraRicardo></CarteiraRicardo>
+          </Route>
+
+          <Route exact path="/w7dSS5wSzBfeI7Wv8dS31">
+              <CarteiraEri></CarteiraEri>
           </Route>
 
           <Route exact path="/validacao/49ec6703-df3f-4036-94c7-b527cd3c1eb0">
@@ -167,6 +173,10 @@ export function Routes(){
 
           <Route exact path="/validacao/aed93be9-0002-4117-b5fc-a333803f3e7c">
               <ValidadorKleuber></ValidadorKleuber>
+          </Route>
+
+          <Route exact path="/validacao/e13acdb8-d933-4b3f-b23e-65f2b75ac950">
+              <ValidadorEri></ValidadorEri>
           </Route>
 
           <Route exact path="/l5dMY5nWpBhdh7YW5Sc01">
