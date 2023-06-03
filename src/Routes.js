@@ -54,6 +54,8 @@ import CarteiraEri from './component/estudante/carteiraEri/CarteiraEri';
 import ValidadorEri from './component/validador/ValidadorEri';
 import CarteiraRay from './component/estudante/carteiraRay/carteiraRay';
 import ValidadorRay from './component/validador/ValidadorRay';
+import CarteiraErnane from './component/estudante/carteiraErnane/CarteiraErnane';
+import ValidadorErnane from './component/validador/ValidadorErnane';
 
 /*import Cliente from './components/pages/Cliente';*/
 
@@ -185,6 +187,10 @@ export function Routes(){
               <ValidadorRay></ValidadorRay>
           </Route>
 
+          <Route exact path="/validacao/a7c120d1-8d7c-45f2-ad1f-643ddd9b63ba">
+              <ValidadorErnane></ValidadorErnane>
+          </Route>
+
           <Route exact path="/l5dMY5nWpBhdh7YW5Sc01">
               <CarteiraGabriel></CarteiraGabriel>
           </Route>
@@ -272,6 +278,10 @@ export function Routes(){
 
           <Route exact path="/x2cFS6wVxSdhi7SM7Da97">
               <CarteiraRay></CarteiraRay>
+          </Route>
+
+          <Route exact path="/p7cSA8wxVGaiT8WHdSc32">
+              <CarteiraErnane></CarteiraErnane>
           </Route>
 
           <Route exact path="/login">
