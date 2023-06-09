@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import carteirinhaCalango from '../carteiraCalango/carteirinhaCalango.JPG'
+import carteiraJoao from './carteirinhaJoao.JPG'
 import LogoClubeDoEstudante from '../clubeDoEstudante2.jpg'
-import qrCodeCalango from '../carteiraCalango/qrCodeCalango.png'
+import qrCodeJoao from '../carteiraAnderson/qrCodeJoao.png'
 import { Redirect } from 'react-router-dom'
 import '../Carteira.css'
 
-class CarteiraCalango extends Component {
+class CarteiraJoao extends Component {
 
     constructor(props){
         super(props);
@@ -57,7 +57,7 @@ class CarteiraCalango extends Component {
                 <div class="column is-half is-offset-one-quarter">
 
                     <div class="block">
-                        <img src={carteirinhaCalango} alt='carteirinha calango' id="carteirinhafoto"/>
+                        <img src={carteiraJoao} alt='carteirinha Anderson' id="carteirinhafoto"/>
                     </div>
 
                     <div class="columns is-mobile">
@@ -70,7 +70,7 @@ class CarteiraCalango extends Component {
                         <div class="column is-half is-offset-one-quarter">
 
                             <div  class="block">
-                                <img src={qrCodeCalango} alt='qr code calango'/>
+                                <img src={qrCodeJoao} alt='qr code Anderson'/>
                             </div>
 
                         </div>
@@ -86,4 +86,4 @@ class CarteiraCalango extends Component {
 
 }
 
-export default CarteiraCalango;
+export default CarteiraJoao;

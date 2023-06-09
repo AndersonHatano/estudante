@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Logo from '../validador/logoVerde.png'
 import '../validador/Validador.css'
 
-class ValidadorCalango extends Component{
+class ValidadorGessica extends Component{
 
 
     render(){
@@ -36,7 +36,7 @@ class ValidadorCalango extends Component{
                     <div class="column is-three-fifths is-offset-one-fifth">  
                         <p class="texto-validador">
                             <span class="texto-validador-negrito">Nome: </span>
-                            Leonardo Ferreira Gonçalves
+                            Géssica Aline de Castro Silva
                         </p>
                     </div>
                 </div>
@@ -55,7 +55,7 @@ class ValidadorCalango extends Component{
                     <div class="column is-three-fifths is-offset-one-fifth">  
                         <p class="texto-validador">
                             <span class="texto-validador-negrito">Código de uso: </span>
-                            p7bFG5wFxFgdh8AW78a81
+                            p8sWK5eDjFqao8QW4Cg82
                         </p>
                     </div>
                 </div>
@@ -73,4 +73,4 @@ class ValidadorCalango extends Component{
 
 }
 
-export default ValidadorCalango;
+export default ValidadorGessica;

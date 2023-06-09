@@ -56,6 +56,12 @@ import CarteiraRay from './component/estudante/carteiraRay/carteiraRay';
 import ValidadorRay from './component/validador/ValidadorRay';
 import CarteiraErnane from './component/estudante/carteiraErnane/CarteiraErnane';
 import ValidadorErnane from './component/validador/ValidadorErnane';
+import CarteiraGessica from './component/estudante/carteiraGessica/CarteiraGessica';
+import ValidadorGessica from './component/validador/ValidadorGessica';
+import CarteiraPedro from './component/estudante/carteiraPedro/CarteiraPedro';
+import ValidadorPedro from './component/validador/ValidadorPedro';
+import CarteiraJoao from './component/estudante/carteiraJoao/CarteiraJoao';
+import ValidadorJoao from './component/validador/ValidadorJoao';
 
 /*import Cliente from './components/pages/Cliente';*/
 
@@ -191,6 +197,18 @@ export function Routes(){
               <ValidadorErnane></ValidadorErnane>
           </Route>
 
+          <Route exact path="/validacao/9f355120-d844-42f9-b181-0e5620ad8117">
+              <ValidadorGessica></ValidadorGessica>
+          </Route>
+
+          <Route exact path="/validacao/1a0ab3f8-34ff-480e-b1fa-42f9d2c8ba7f">
+              <ValidadorPedro></ValidadorPedro>
+          </Route>
+
+          <Route exact path="/validacao/9f3b4dc3-8d89-4771-85fc-69d69b6c1c1c">
+              <ValidadorJoao></ValidadorJoao>
+          </Route>
+
           <Route exact path="/l5dMY5nWpBhdh7YW5Sc01">
               <CarteiraGabriel></CarteiraGabriel>
           </Route>
@@ -282,6 +300,18 @@ export function Routes(){
 
           <Route exact path="/p7cSA8wxVGaiT8WHdSc32">
               <CarteiraErnane></CarteiraErnane>
+          </Route>
+
+          <Route exact path="/p8sWK5eDjFqao8QW4Cg82">
+              <CarteiraGessica></CarteiraGessica>
+          </Route>
+
+          <Route exact path="/c8sNG5qVcGgdh0QE5Td22">
+              <CarteiraPedro></CarteiraPedro>
+          </Route>
+          
+          <Route exact path="/j7dGD8qFxBgdh8PN7Wd24">
+              <CarteiraJoao></CarteiraJoao>
           </Route>
 
           <Route exact path="/login">
