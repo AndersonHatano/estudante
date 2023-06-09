@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import carteiraGessica from './carteirinhaGessica.JPG'
 import LogoClubeDoEstudante from '../clubeDoEstudante2.jpg'
-import qrCodeGessica from '../carteiraAnderson/qrCodeGessica.png'
+import qrCodeGessica from '../carteiraGessica/qrCodeGessica.png'
 import { Redirect } from 'react-router-dom'
 import '../Carteira.css'
 

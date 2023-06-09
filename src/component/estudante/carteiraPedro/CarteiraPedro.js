@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import carteiraPedro from './carteirinhaPedro.JPG'
 import LogoClubeDoEstudante from '../clubeDoEstudante2.jpg'
-import qrCodePedro from '../carteiraAnderson/qrCodePedro.png'
+import qrCodePedro from '../carteiraPedro/qrCodePedro.png'
 import { Redirect } from 'react-router-dom'
 import '../Carteira.css'
 
