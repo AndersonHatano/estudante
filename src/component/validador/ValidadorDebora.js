@@ -28,7 +28,7 @@ class ValidadorDebora extends Component{
 
                 <div class="columns is-mobile">
                     <div class="column is-three-fifths is-offset-one-fifth">
-                        <p class="texto-validador" id="texto-meio">Carteirinha válida até 31/07/2023</p>
+                        <p class="texto-validador" id="texto-meio">Carteirinha válida até 31/01/2024</p>
                     </div>
                 </div>
 
